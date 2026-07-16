@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Shubham Tiwari">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#d9c7a3"/><stop offset=".5" stop-color="#9fb5b8"/><stop offset="1" stop-color="#66785a"/>
+  </linearGradient></defs>
+  <rect width="600" height="600" fill="#f3efe6"/>
+  <circle cx="300" cy="300" r="220" fill="url(#g)"/>
+  <path d="M90 390 C180 315 250 330 300 285 C365 225 420 250 515 165" fill="none" stroke="#fff" stroke-width="8" opacity=".55"/>
+  <text x="300" y="340" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="150" font-weight="700" fill="#fff">ST</text>
+</svg>
