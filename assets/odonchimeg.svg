@@ -1,9 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Odonchimeg Munkhdalai">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#d9c7a3"/><stop offset=".5" stop-color="#9fb5b8"/><stop offset="1" stop-color="#66785a"/>
-  </linearGradient></defs>
-  <rect width="600" height="600" fill="#f3efe6"/>
-  <circle cx="300" cy="300" r="220" fill="url(#g)"/>
-  <path d="M90 390 C180 315 250 330 300 285 C365 225 420 250 515 165" fill="none" stroke="#fff" stroke-width="8" opacity=".55"/>
-  <text x="300" y="340" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="150" font-weight="700" fill="#fff">OM</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Odonchimeg Munkhdalai">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#dfc58e"/>
+    <stop offset=".5" stop-color="#86a5af"/>
+    <stop offset="1" stop-color="#627455"/>
+  </linearGradient>
+  <filter id="paper"><feTurbulence baseFrequency=".03" numOctaves="2" seed="4" result="n"/><feBlend in="SourceGraphic" in2="n" mode="soft-light"/></filter>
+</defs>
+<rect width="400" height="400" rx="200" fill="#eee9dd"/>
+<circle cx="200" cy="200" r="172" fill="url(#g)" filter="url(#paper)"/>
+<path d="M36 250 C92 205 135 218 175 180 C224 132 271 149 364 86" fill="none" stroke="#fff" stroke-width="5" opacity=".55"/>
+<path d="M43 280 C110 238 156 248 214 206 C267 168 315 172 368 139" fill="none" stroke="#fff" stroke-width="3" opacity=".34"/>
+<text x="200" y="235" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="105" font-weight="700" fill="#fff">OM</text>
 </svg>
